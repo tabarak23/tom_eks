@@ -6,3 +6,4 @@ enabled: true
     version: v2.1.15-eksbuild.1
 grep -R "jsondecode(file" .
 grep -R "yamldecode(file" .
+kubectl get pods -n kube-system | grep csi
